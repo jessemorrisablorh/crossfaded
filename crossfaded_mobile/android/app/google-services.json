@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "279408409414",
+    "project_id": "blessed-care-int",
+    "storage_bucket": "blessed-care-int.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279408409414:android:656fc3c5a51b5530c38347",
+        "android_client_info": {
+          "package_name": "com.crossfaded.store.crossfaded_mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARuRLdEEcN4IgFGiTCfnwxNRiwrbohVXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
+

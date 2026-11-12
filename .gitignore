@@ -1,0 +1,39 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+crossfaded-cpanel-build.zip
+*.zip
+.ruby-lsp/
+
+# Flutter / Mobile artifacts
+crossfaded_mobile/build/
+crossfaded_mobile/.dart_tool/
+crossfaded_mobile/ios/Pods/
+crossfaded_mobile/ios/.symlinks/
+crossfaded_mobile/ios/Flutter/Flutter.framework
+crossfaded_mobile/ios/Flutter/Flutter.podspec
+crossfaded_mobile/android/.gradle/
+crossfaded_mobile/android/local.properties
+*.apk
+*.aab
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    overflow-x: hidden;
+    max-width: 100vw;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-black text-white font-sans antialiased;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+}
+
+/* Custom luxury scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f59e0b;
+}
+
+/* Gold glow utilities */
+.gold-glow {
+  box-shadow: 0 0 25px rgba(245, 158, 11, 0.25);
+}
+
+.gold-glow-hover:hover {
+  box-shadow: 0 0 30px rgba(245, 158, 11, 0.4);
+}
+
+.gold-border-glow {
+  border-color: rgba(245, 158, 11, 0.4);
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.2);
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(20, 20, 22, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-dropdown {
+  background: rgba(18, 18, 20, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
